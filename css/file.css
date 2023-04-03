@@ -19,6 +19,7 @@
 header{
     background-color: #0084fd;
     height: 100px;
+    position: fixed;
 }
 
 header .container {
@@ -30,7 +31,7 @@ header .container {
     display: none;
 }
 
-    /* versione tablet */
+    /* versione desktop and tablet header */
 
     @media screen and (min-width: 768px) {
         #menumobile{
@@ -43,7 +44,20 @@ header .container {
         
     }
 
-/* versione desktop */
+
+    /* Main */
+
+
+
+
+
+
+
+
+    
+
+
+
 
 
 
