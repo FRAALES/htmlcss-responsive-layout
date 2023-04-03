@@ -5,3 +5,56 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Header */
+header{
+    background-color: #0084fd;
+    height: 100px;
+
+}
+
+
+
+
+/* Footer */
+footer{
+    background-color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Regole di debug */
+
+section{
+    min-height: 150px;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    min-height: 150px;
+}
+
+.container {
+    background-color: aqua;
+    min-height: 50px;
+}
