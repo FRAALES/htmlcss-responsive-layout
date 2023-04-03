@@ -20,6 +20,7 @@ header{
     background-color: #0084fd;
     height: 100px;
     position: fixed;
+    width: 100%;
 }
 
 header .container {
@@ -45,16 +46,59 @@ header .container {
     }
 
 
+
+
     /* Main */
 
+     main{
+        padding-top: 100px;
+     }
 
 
 
 
+    /* Sezione Developer */
+
+    .container-white{
+        background-color: white;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .row{
+        width: 90%;
+        margin: 20px auto;
+        background-color: #b5ddff;
+        border-radius: 20px;
+
+    }
+
+
+    .col{
+        width: 90%;
+        margin: 0 auto 20px;
+        text-align: center;
+        padding: solid white 20px;
+
+    }
+
+
+/* versione desktop and tablet header */
+
+    @media screen and (min-width: 768px) {
+       .row{
+        display: flex;
+        justify-content: space-between;
+       }
+
+       .col{
+        width: 45%;
+       }
+        
+    }
 
 
 
-    
 
 
 
@@ -89,7 +133,7 @@ footer{
 
 
 /* Regole di debug */
-
+/* 
 section{
     min-height: 150px;
     background-color: brown;
@@ -112,3 +156,8 @@ footer {
     min-height: 50px;
     border: solid 1px white;
 }
+
+
+.row{
+    min-height: 200px;
+} */
