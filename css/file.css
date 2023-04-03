@@ -13,12 +13,45 @@
 }
 
 
+
+
 /* Header */
 header{
     background-color: #0084fd;
     height: 100px;
-
 }
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menudesktop {
+    display: none;
+}
+
+    /* versione tablet */
+
+    @media screen and (min-width: 768px) {
+        #menumobile{
+            display: none;
+        }
+
+        #menudesktop{
+            display: block;      
+        }
+        
+    }
+
+/* versione desktop */
+
+
+
+
+
+
+
+
 
 
 
@@ -57,4 +90,11 @@ footer {
 .container {
     background-color: aqua;
     min-height: 50px;
+}
+
+#logo, header nav {
+    min-width: 50px;
+    background-color: blueviolet;
+    min-height: 50px;
+    border: solid 1px white;
 }
