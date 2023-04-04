@@ -374,7 +374,9 @@ header .container {
             display: flex;
         }
  
-      
+      .benefits-container{
+        display:none
+      }
 
  }
 
