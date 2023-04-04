@@ -49,7 +49,7 @@ header .container {
     display: none;
 }
 
-    /* versione desktop and tablet header */
+    /* versione DESKTOP header */
 
     @media screen and (min-width: 810px) {
         #menumobile{
@@ -139,7 +139,7 @@ header .container {
 
 
 
-/* versione tablet main 
+/* versione TABLET main 
     sezione developer */
 
     @media screen and (min-width: 375px) {
@@ -168,12 +168,7 @@ header .container {
  
  }
 
-
-
-    
-
-
-    /* versione desktop main 
+    /* versione DESKTOP main 
     sezione developer */
     @media screen and (min-width: 810px) {
 
@@ -181,8 +176,6 @@ header .container {
             display: flex;
     
        }
-    
-       
     }
 
 
@@ -221,24 +214,42 @@ header .container {
        .arrow-down{
         color: black;
         background-color: #9792e4;
-        border-radius: 100px;
-        line-height: 50px;
+        border-radius: 50%;
         padding: 10px;
+        margin-top: 30px;
+       }
+
+       #h1-planning{
+            font-size: 50px;
+            margin-bottom: 30px;
+       }
+
+       #p-planning{
+        margin-top: 20px;
        }
 
 
 
-            /* versione desktop and tablet main 
+            /* versione DESKTOP main 
                 sezione planning */
 
 
+            @media screen and (min-width: 810px) {
+
+            .container-purple{
+                display: flex;
+            }
+
+            .col-planning{
+                width: 50%;
+            }
+
+            #col-planning-right{
+                margin-top: 100px;
+            }
 
 
-
-
-
-
-
+            }
 
 
 
