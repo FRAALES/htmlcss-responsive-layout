@@ -60,7 +60,6 @@ header .container {
             display: block;  
             color: white;
             margin-top: 30px;
-                
         }
 
         #ul-desktop{
@@ -69,6 +68,17 @@ header .container {
             justify-content: space-between;
         }
         
+        .li-header{
+            margin: 0 5px;
+        }
+
+        #button-header{
+            background-color: white;
+            color: black;
+            padding: 5px;
+            border-radius: 20px;
+        }
+
     }
 
 
