@@ -303,10 +303,96 @@ header .container {
         .col-testimonial{
             display: flex;
         }
-   
-
  
  }
+
+
+
+
+
+ /* Main sezione Benefits */
+
+
+
+ .container-purple-benefits{
+    background-color: #9792e4;
+    width: 100%;
+    padding-bottom: 30px;
+   }
+
+
+ .row-benefits{
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    color: #9792e4;;
+    border-radius: 20px;
+
+}
+
+
+
+#h1-benefits{
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    width: 240px;
+    margin: 0 auto;
+
+}
+
+
+#more{
+        color: white;
+        background-color:#9792e4;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 20px 0;
+        width: 60%;
+    
+}
+
+
+        /* versione TABLET main 
+    sezione benefits */
+
+    @media screen and (min-width: 375px) {
+
+        .benefits-container{
+            display: flex;
+        }
+ 
+ }
+
+
+                /* versione DESKTOP main 
+    sezione benefits */
+
+    @media screen and (min-width: 810px) {
+
+        .benefits-big-container{
+            display: flex;
+        }
+ 
+      
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
