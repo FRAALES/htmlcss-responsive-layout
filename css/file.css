@@ -254,6 +254,35 @@ header .container {
 
 
 
+/* Main Sezione testimonials */
+
+
+.row-testimonial{
+    max-width: 90%;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+
+.col-testimonial{
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #9792e4;
+    border-radius: 20px; 
+
+}
+
+#h1-testimonials{
+    color: #9792e4;
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer{
@@ -273,32 +302,3 @@ footer{
 
 
 
-/* Regole di debug */
-/* 
-section{
-    min-height: 150px;
-    background-color: brown;
-    margin-bottom: 20px;
-}
-
-
-footer {
-    min-height: 150px;
-}
-
-.container {
-    background-color: aqua;
-    min-height: 50px;
-}
-
-#logo, header nav {
-    min-width: 50px;
-    background-color: blueviolet;
-    min-height: 50px;
-    border: solid 1px white;
-}
-
-
-.row{
-    min-height: 200px;
-} */
