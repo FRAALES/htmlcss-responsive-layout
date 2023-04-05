@@ -327,7 +327,6 @@ header .container {
     background-color: white;
     color: #9792e4;;
     border-radius: 20px;
-
 }
 
 
@@ -352,14 +351,26 @@ header .container {
     
 }
 
+.col-benefits{
+        width: 90%;
+        margin: 0 auto 20px;
+        text-align: left;
+        padding: 30px 0 20px;
+}
+
 
         /* versione TABLET main 
     sezione benefits */
 
     @media screen and (min-width: 375px) {
 
-        .benefits-container{
+        .benefits-big-container{
             display: flex;
+        }
+
+        .benefits-big-container .row-benefits .col-benefits{
+            width: calc(100% / 3 - 2rem);
+            margin: 0 1rem 2rem;
         }
  
  }
@@ -370,13 +381,11 @@ header .container {
 
     @media screen and (min-width: 810px) {
 
-        .benefits-big-container{
-            display: flex;
+        /* .col-benefits{
+            width: calc(100% / 3 - 2rem);
+            margin: 0 1rem 2rem;
         }
- 
-      .benefits-container{
-        display:none
-      }
+  */
 
  }
 
